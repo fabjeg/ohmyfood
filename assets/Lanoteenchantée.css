@@ -1,0 +1,354 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.shrikhand-regular {
+    font-family: "Shrikhand", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  p{
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 18.75px;
+}
+h1, h2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+}
+/*header destock*/
+.Logo{    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 500px;
+    padding-top: 30px;
+    padding-bottom: 31.8px;
+
+}
+.Logo__img{
+    width: 100%;
+    height: 34.2px;
+    left: 16px;
+}
+/*section img restauranr*/
+.img-rst img{
+    width: 100%;
+    height: 383px;
+}
+/*section container grey*/
+.container-desktock{
+    display: flex;
+    justify-content: space-around;
+}
+.container-grey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 1055px;
+    height: 1290px;
+    background-color: #F6F6F6;
+    border-radius: 50px 50px 0px 0px;
+    margin-top: -60px;
+}
+.container-grey h1{
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40.82px;
+    text-align: left;
+}
+.container-grey i{
+    padding-left: 50px;
+}
+.container-grey P {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+    margin-left: 20px;
+    border-bottom: 3px solid #99E2D0;
+    padding-bottom: 10px;
+    width: 40px;
+}
+.entrées{
+    margin-bottom: 20px;
+}
+.plats{
+    margin-bottom: 20px;
+}
+.desserts{
+    margin-bottom: 20px;
+}
+.buton-menu{
+    width: 634px;
+    height: 69px;
+    border-radius: 15.04px;
+    background-color: #FFFFFF;
+    margin-left: 13px;
+    margin-right: 13px;
+    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
+}
+.buton-menu a{
+    text-decoration: none;
+}
+.buton-menu h2{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #000000;
+    padding-left: 15px;
+    padding-top: 12px;
+    margin-bottom: 5px;
+}
+.text-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 15.04px;
+    font-weight: 300;
+    line-height: 17.63px;
+    padding-left: 15px;
+    color: #000000;
+    margin-right: 15px;
+}
+.price-menu{
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15.04px;
+    font-weight: 700;
+    line-height: 17.63px;
+    color: #353535;
+}
+/* boutton*/
+.btn {
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 500;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    line-height: 46px;
+    font-family: "Roboto";
+    margin-top: 50px;
+    text-align: center;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+/*footer*/
+.container-footer{
+    width: 100%;
+    height: 114px;
+    background-color: #353535;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+}
+.logo-footer{
+    width: 139px;
+    height: 27px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.display-footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px
+}
+.display-footer i{
+    margin-right: 11px;
+}
+.display-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+@media (max-width: 767.98px){ 
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+/*header*/
+.Logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    gap: 40px;
+}
+.Logo a{
+    color: #000000;
+    height: 16px;
+
+}
+.Logo__img{
+    width: 162px;
+    height: 44px;
+    left: 16px;
+}
+/*section1*/
+.img-rst img{
+    width: 100%;
+    height: 373px;
+}
+/*section2*/
+.container-desktock{
+    width: 100%;
+}
+.container-grey{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+    height: 1250px;
+    background-color: #F6F6F6;
+    margin-top: -60px;
+    border-radius: 50px 50px 0px 0px;
+    padding-right: 30px
+}
+.container-grey h1{
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40.82px;
+    text-align: left;
+}
+.container-grey h1, i{
+    padding-left: 50px;
+}
+.container-grey P {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+    margin-left: 20px;
+    border-bottom: 3px solid #99E2D0;
+    padding-bottom: 10px;
+    width: 40px;
+}
+/* section entrées btn-menu*/
+.entrées{
+    margin-bottom: 20px;
+}
+.plats{
+    margin-bottom: 20px;
+}
+.desserts{
+    margin-bottom: 20px;
+}
+.buton-menu{
+    width: 100%;
+    height: 69px;
+    border-radius: 15.04px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    box-shadow: 0px 4.01px 15.04px 0px #0000001A;
+}
+.buton-menu a{
+    text-decoration: none;
+}
+.buton-menu h2{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #000000;
+    padding-left: 15px;
+    padding-top: 12px;
+    margin-bottom: 5px;
+}
+.text-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: 15.04px;
+    font-weight: 300;
+    line-height: 17.63px;
+    padding-left: 15px;
+    color: #000000;
+    margin-right: 15px;
+}
+.price-menu{
+    text-align: right;
+    font-family: Roboto;
+    font-size: 15.04px;
+    font-weight: 700;
+    line-height: 17.63px;
+    color: #353535;
+}
+/* boutton*/
+.container-btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 500;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    line-height: 46px;
+    font-family: "Roboto";
+    margin: 30px;
+    text-align: center;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+}
+/*footer*/
+.container-footer{
+    width: 100%;
+    height: 220px;
+    background-color: #353535;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.logo-footer{
+    margin-left: 25px;
+    margin-top: 22px;
+    margin-bottom: 16px;
+}
+.display-footer{
+    display: flex;
+    flex-direction: column;
+}
+.display-footer p{
+    margin: 0px;
+    padding-left: 25px;
+}
+.display-footer i{
+    padding-left: 0px;
+}
+}
