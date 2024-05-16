@@ -1,0 +1,23 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "ohmyfood project",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch sass/index.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabjeg/ohmyfood.git"
+  },
+  "author": "fabien jego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabjeg/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/fabjeg/ohmyfood#readme",
+  "dependencies": {
+    "sass": "^1.76.0"
+  }
+}
+
