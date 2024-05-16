@@ -412,7 +412,6 @@
     align-content: space-around;
     flex-wrap: wrap;
     gap: 3px;
-    margin-left: 95px;
     padding-top: 0px;
   }
   .buton-operation i {
@@ -875,9 +874,8 @@
   }
   .container-grey-rst {
     width: 100%;
-    height: 1230px;
     border-radius: 40px 40px 0px 0px;
-    background-color: red;
+    background-color: #f6f6f6;
   }
   .container-grey-rst .menu {
     margin-left: 13px;
