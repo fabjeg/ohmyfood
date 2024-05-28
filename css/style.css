@@ -345,10 +345,9 @@ br {
 
 .text-footer {
   display: flex;
-  justify-content: baseline;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 970.98px) {
   /* header*/
   header {
     position: relative;
@@ -720,7 +719,7 @@ br {
   -webkit-background-clip: text;
   opacity: 0;
   transition: all 2000ms ease-in-out;
-  right: 30.8px;
+  right: 30px;
 }
 .container-grey-rst .icon .fa-solid:hover {
   opacity: 1;
@@ -770,7 +769,7 @@ br {
   -webkit-background-clip: text;
   opacity: 0;
   transition: all 2000ms ease-in-out;
-  right: 30.8px;
+  right: 30px;
 }
 .container-grey-rst-2 .icon .fa-solid:hover {
   opacity: 1;
@@ -941,7 +940,6 @@ h3 {
 
 .text-footer {
   display: flex;
-  justify-content: baseline;
   gap: 10px;
   margin-left: 30px;
   margin-right: 25px;
