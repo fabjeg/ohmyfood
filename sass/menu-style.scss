@@ -303,6 +303,12 @@ to {
     right: 20px;
     transition: transform 750ms ease;
   }
+  p{
+	transition: transform 750ms ease;
+  }
+  h2{
+	transition: transform 750ms ease;
+  }
 
   .buton-menu:hover {
     .click {
@@ -318,6 +324,24 @@ to {
       transform: translateX(-62px);
       transition: transform 750ms ease;
     }
+	h2 {
+        width: 55%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+		transition: transform 750ms ease;
+      }
+
+      p {
+        width: 55%;
+        border: none;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+		transition: transform 750ms ease;
+      }
   }
 
   .container-btn {
@@ -352,6 +376,7 @@ to {
     line-height: 46px;
     font-family: $f-f_roboto;
     text-align: center;
+	box-shadow: 0px 4px 15px 0px #00000059;
     transition: 1500ms;
 
     a {
@@ -571,23 +596,6 @@ to {
       font-family: $f-f_roboto;
       font-size: 15.04px;
       font-weight: 300;
-
-      h2 {
-        width: 55%;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-
-      p {
-        width: 55%;
-        border: none;
-        margin-bottom: 0px;
-        margin-top: 5px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
     }
   }
 
