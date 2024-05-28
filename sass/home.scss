@@ -163,7 +163,8 @@ $b-c_purpul: #9356DC;
 		margin-right: 90px;
 		margin-left: 55px;
 		a {
-			width: 380px;
+			white-space: nowrap;
+			width: 27%;
 			font-family: $f-f_roboto;
 			border-radius: 25px;
 			font-weight: 500;
@@ -447,6 +448,7 @@ $b-c_purpul: #9356DC;
         flex-wrap: wrap;
 		gap: 3px;
 		padding-top: 0px;
+		margin: 0px;
 		i {
 			margin-right: 27px;
 		}

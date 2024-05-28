@@ -147,7 +147,8 @@ br {
   margin-left: 55px;
 }
 .buton-operation a {
-  width: 380px;
+  white-space: nowrap;
+  width: 27%;
   font-family: "Roboto", sans-serif;
   border-radius: 25px;
   font-weight: 500;
@@ -438,6 +439,7 @@ br {
     flex-wrap: wrap;
     gap: 3px;
     padding-top: 0px;
+    margin: 0px;
   }
   .buton-operation i {
     margin-right: 27px;
