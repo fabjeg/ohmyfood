@@ -306,7 +306,7 @@ to {
   p{
 	transition: transform 750ms ease;
   }
-  h2{
+  h3{
 	transition: transform 750ms ease;
   }
 
@@ -324,7 +324,7 @@ to {
       transform: translateX(-62px);
       transition: transform 750ms ease;
     }
-	h2 {
+	h3 {
         width: 55%;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -335,8 +335,6 @@ to {
       p {
         width: 55%;
         border: none;
-        margin-bottom: 0px;
-        margin-top: 5px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
