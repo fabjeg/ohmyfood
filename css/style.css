@@ -330,7 +330,6 @@ br {
   font-weight: 400;
   line-height: 18.75px;
   margin: 0px;
-  padding-left: 25px;
 }
 .display-footer i {
   margin-right: 10px;
@@ -341,6 +340,11 @@ br {
 
 .logo-footer {
   margin-bottom: 26px;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: baseline;
 }
 
 @media (max-width: 767.98px) {
@@ -554,11 +558,11 @@ br {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 0px;
+    padding-left: 25px;
   }
   .logo-footer {
     width: 139px;
     height: 27px;
-    margin-left: 25px;
     margin-top: 22px;
     margin-bottom: 16px;
   }
@@ -568,9 +572,14 @@ br {
   }
   .display-footer p {
     margin: 0px;
-    padding-left: 25px;
   }
   .display-footer i {
+    padding-left: 0px;
+  }
+  .text-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     padding-left: 0px;
   }
 }
@@ -915,10 +924,9 @@ h3 {
 .display-footer p {
   color: white;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 18.75px;
   margin: 0px;
-  padding-left: 25px;
 }
 .display-footer i {
   margin-right: 10px;
@@ -926,21 +934,24 @@ h3 {
 
 .logo-footer {
   margin-bottom: 26px;
+  margin-right: 50px;
 }
 
-@media (max-width: 1100px) {
-  .img-rst img {
-    width: 100%;
-    height: 383px;
-    object-fit: cover;
-  }
-  .container-grey-rst {
-    width: 100%;
-  }
-  .container-grey-rst-2 {
-    width: 100%;
-  }
+.text-footer {
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+  margin-left: 30px;
+  margin-right: 25px;
 }
+.text-footer p {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+}
+
 @media (min-width: 168px) and (max-width: 768.97px) {
   .logo-icon {
     display: flex;
@@ -1091,11 +1102,11 @@ h3 {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 0px;
+    padding-left: 25px;
   }
   .logo-footer {
     width: 139px;
     height: 27px;
-    margin-left: 25px;
     margin-top: 22px;
     margin-bottom: 16px;
   }
@@ -1105,10 +1116,17 @@ h3 {
   }
   .display-footer p {
     margin: 0px;
-    padding-left: 25px;
   }
   .display-footer i {
     padding-left: 0px;
+  }
+  .text-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 

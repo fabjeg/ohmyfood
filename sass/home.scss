@@ -339,7 +339,6 @@ $b-c_purpul: #9356DC;
 			font-weight: 400;
 			line-height: 18.75px;
 			margin: 0px;
-			padding-left: 25px;
 		}
 		i {
 			margin-right: 10px;
@@ -351,6 +350,10 @@ $b-c_purpul: #9356DC;
 	.logo-footer{
 		margin-bottom: 26px;
 	}
+	.text-footer{
+		display: flex;
+		justify-content: baseline;
+	  }
 @media (max-width: 767.98px) { 
 	/* header*/
 	header {
@@ -570,11 +573,11 @@ $b-c_purpul: #9356DC;
 		flex-wrap: wrap;
 		align-items: flex-start;
 		gap: 0px;
+		padding-left: 25px;
 	}
 	.logo-footer {
 		width: 139px;
 		height: 27px;
-		margin-left: 25px;
 		margin-top: 22px;
 		margin-bottom: 16px;
 	}
@@ -583,10 +586,15 @@ $b-c_purpul: #9356DC;
 		flex-direction: column;
 		p {
 			margin: 0px;
-			padding-left: 25px;
 		}
 		i {
 			padding-left: 0px;
 		}
 	}
+	.text-footer{
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+		padding-left: 0px;
+	  }
 }
