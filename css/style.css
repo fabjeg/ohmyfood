@@ -232,8 +232,8 @@ br {
   position: absolute;
   right: 30px;
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   opacity: 0;
   background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
   transition: all 2000ms ease-in-out;
@@ -670,13 +670,17 @@ br {
     font-size: 27px;
   }
   .container-grey-rst .fa-solid {
-    color: transparent;
     position: relative;
-    right: 31px;
-    transition: 1200ms;
+    color: transparent;
+    background-image: linear-gradient(to top, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 2000ms ease-in-out;
+    right: 30.8px;
   }
-  .container-grey-rst .fa-solid:hover {
-    color: #9356DC;
+  .container-grey-rst:hover .fa-solid {
+    opacity: 1;
+    transform: scale(1.02);
   }
   .container-grey-rst-2 {
     display: flex;
@@ -715,13 +719,17 @@ br {
     font-size: 27px;
   }
   .container-grey-rst-2 .fa-solid {
-    color: transparent;
     position: relative;
-    right: 31px;
-    transition: all 1200ms;
+    color: transparent;
+    background-image: linear-gradient(to top, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 2000ms ease-in-out;
+    right: 30.8px;
   }
-  .container-grey-rst-2 .fa-solid:hover {
-    color: #9356DC;
+  .container-grey-rst-2:hover .fa-solid {
+    opacity: 1;
+    transform: scale(1.02);
   }
   .buton-menu {
     width: 100%;
@@ -919,13 +927,17 @@ br {
     font-size: 27px;
   }
   .container-grey-rst .fa-solid {
-    color: transparent;
     position: relative;
-    right: 31px;
-    transition: 1200ms;
+    color: transparent;
+    background-image: linear-gradient(to top, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 2000ms ease-in-out;
+    right: 30.8px;
   }
-  .container-grey-rst .fa-solid:hover {
-    color: #9356DC;
+  .container-grey-rst:hover .fa-solid {
+    opacity: 1;
+    transform: scale(1.02);
   }
   .container-grey-rst-2 {
     width: 100%;
@@ -960,13 +972,17 @@ br {
     margin: 31px 0px 0 17px;
   }
   .container-grey-rst-2 .fa-solid {
-    color: transparent;
     position: relative;
-    right: 31px;
-    transition: 1200ms;
+    color: transparent;
+    background-image: linear-gradient(to top, #ff79da, #9356dc);
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 2000ms ease-in-out;
+    right: 30.8px;
   }
-  .container-grey-rst-2 .fa-solid:hover {
-    color: #9356DC;
+  .container-grey-rst-2 :hover .fa-solid {
+    opacity: 1;
+    transform: scale(1.02);
   }
   .buton-menu {
     width: 100%;

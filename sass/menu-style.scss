@@ -112,15 +112,20 @@ $b-c_footer: #353535;
 		i{
 			font-size: 27px;
 		}
-		.fa-solid{
-			color: transparent;
+		.fa-solid {
 			position: relative;
-			right: 31px;
-			transition:  1200ms;
-		}
-		.fa-solid:hover{
-			color: $color_purpule;
-	}
+			color: transparent;
+			background-image: linear-gradient(to top, $secondary-color, $primary-color);
+			-webkit-background-clip: text;
+			opacity: 0;
+			transition: all 2000ms ease-in-out;
+			right: 30.8px;
+		  }
+		
+		  &:hover .fa-solid {
+			opacity: 1;
+			transform: scale(1.02);
+		  }
 	}
 	.container-grey-rst-2{
 		display: flex;
@@ -157,15 +162,20 @@ $b-c_footer: #353535;
 		i{
 			font-size: 27px;
 		}
-		.fa-solid{
-			color: transparent;
+		.fa-solid {
 			position: relative;
-			right: 31px;
-			transition: all 1200ms;
-		}
-		.fa-solid:hover{
-			color: $color_purpule;
-	}
+			color: transparent;
+			background-image: linear-gradient(to top, $secondary-color, $primary-color);
+			-webkit-background-clip: text;
+			opacity: 0;
+			transition: all 2000ms ease-in-out;
+			right: 30.8px;
+		  }
+		
+		  &:hover .fa-solid {
+			opacity: 1;
+			transform: scale(1.02);
+		  }
 	}
 	.buton-menu{
 		width: 100%;
@@ -367,15 +377,20 @@ width: 100%;
 	i{
 		font-size: 27px;
 	}
-	.fa-solid{
-		color: transparent;
+	.fa-solid {
 		position: relative;
-		right: 31px;
-		transition: 1200ms;
-	}
-	.fa-solid:hover{
-		color: $color_purpule;
-}
+		color: transparent;
+		background-image: linear-gradient(to top, $secondary-color, $primary-color);
+		-webkit-background-clip: text;
+		opacity: 0;
+		transition: all 2000ms ease-in-out;
+		right: 30.8px;
+	  }
+	
+	  &:hover .fa-solid {
+		opacity: 1;
+		transform: scale(1.02);
+	  }
 
 }
 .container-grey-rst-2{
@@ -409,15 +424,20 @@ width: 100%;
 		align-items: center;
 		margin: 31px 0px 0 17px;
 	}
-	.fa-solid{
-		color: transparent;
+	.fa-solid {
 		position: relative;
-		right: 31px;
-		transition: 1200ms;
-	}
-	.fa-solid:hover{
-		color: $color_purpule;
-}
+		color: transparent;
+		background-image: linear-gradient(to top, $secondary-color, $primary-color);
+		-webkit-background-clip: text;
+		opacity: 0;
+		transition: all 2000ms ease-in-out;
+		right: 30.8px;
+	  }
+	
+	  :hover .fa-solid {
+		opacity: 1;
+		transform: scale(1.02);
+	  }
 }
 .buton-menu{
 	width: 100%;
