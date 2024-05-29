@@ -61,7 +61,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   margin: 0px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -108,7 +108,7 @@ br {
   height: 50px;
   border-radius: 25px;
   font-weight: 500;
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   line-height: 46px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -168,7 +168,7 @@ br {
 .circle {
   width: 24px;
   height: 24px;
-  background-color: #9356DC;
+  background-color: #9356dc;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -229,17 +229,17 @@ br {
 .card-restaurant i {
   font-size: 27px;
 }
-.card-restaurant .fa-solid {
+.card-restaurant .heart-home .fa-solid {
   position: absolute;
   right: 30px;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   opacity: 0;
-  background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
   transition: all 2000ms ease-in-out;
 }
-.card-restaurant:hover .fa-solid {
+.card-restaurant .heart-home:hover .fa-solid {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -273,7 +273,7 @@ br {
   top: 3%;
   left: 80%;
   height: 29px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   padding-top: 8px;
   border-radius: 5px;
@@ -292,7 +292,7 @@ br {
   left: 80%;
   width: 80px;
   height: 29px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
   padding-top: 8px;
   border-radius: 5px;
@@ -312,7 +312,6 @@ br {
   justify-content: flex-start;
   flex-direction: row-reverse;
   align-items: flex-end;
-  gap: 70px;
   background-color: #353535;
 }
 
@@ -370,7 +369,7 @@ br {
     align-content: space-around;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #EAEAEA;
+    background-color: #eaeaea;
     box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2509803922);
     margin: 0px;
     gap: 17px;
@@ -405,7 +404,7 @@ br {
     height: 50px;
     border-radius: 25px;
     font-weight: 500;
-    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    background: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
     line-height: 46px;
     font-family: "Roboto", sans-serif;
     text-align: center;
@@ -458,7 +457,7 @@ br {
   .circle {
     width: 24px;
     height: 24px;
-    background-color: #9356DC;
+    background-color: #9356dc;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -495,16 +494,16 @@ br {
   .card-restaurant img {
     object-fit: cover;
   }
-  .card-restaurant .fa-solid {
+  .card-restaurant .heart-home .fa-solid {
     position: absolute;
     color: transparent;
     background-image: linear-gradient(to top, #ff79da, #9356dc);
     -webkit-background-clip: text;
     opacity: 0;
-    transition: all 2000ms ease-in-out;
+    transition: all 2000ms;
     right: 29.8px;
   }
-  .card-restaurant:hover .fa-solid {
+  .card-restaurant .heart-home:hover .fa-solid {
     opacity: 1;
     transform: scale(1.02);
   }
@@ -522,7 +521,7 @@ br {
     top: 13%;
     left: 80%;
     height: 29px;
-    background-color: #99E2D0;
+    background-color: #99e2d0;
     box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
     padding-top: 8px;
     border-radius: 5px;
@@ -540,7 +539,7 @@ br {
     left: 80%;
     width: 80px;
     height: 29px;
-    background-color: #99E2D0;
+    background-color: #99e2d0;
     box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
     padding-top: 8px;
     border-radius: 5px;
@@ -552,7 +551,7 @@ br {
   }
   .container-footer {
     width: 100%;
-    height: 220px;
+    height: 186 px;
     background-color: #353535;
     display: flex;
     flex-direction: column;
@@ -884,7 +883,6 @@ h3 {
   justify-content: flex-start;
   flex-direction: row-reverse;
   align-items: flex-end;
-  gap: 70px;
   background-color: #353535;
 }
 .container-footer p {
@@ -952,7 +950,7 @@ h3 {
   line-height: 18.75px;
 }
 
-@media (min-width: 168px) and (max-width: 768.97px) {
+@media (min-width: 168px) and (max-width: 970px) {
   .logo-icon {
     display: flex;
     align-items: center;
@@ -1003,7 +1001,7 @@ h3 {
   .container-grey-rst i {
     font-size: 27px;
   }
-  .container-grey-rst .fa-solid {
+  .container-grey-rst .icon .fa-solid {
     position: relative;
     color: transparent;
     background-image: linear-gradient(to top, #ff79da, #9356dc);
@@ -1012,7 +1010,7 @@ h3 {
     transition: all 2000ms ease-in-out;
     right: 30.8px;
   }
-  .container-grey-rst:hover .fa-solid {
+  .container-grey-rst .icon:hover .fa-solid {
     opacity: 1;
     transform: scale(1.02);
   }
@@ -1048,7 +1046,7 @@ h3 {
     align-items: center;
     margin: 31px 0px 0 17px;
   }
-  .container-grey-rst-2 .fa-solid {
+  .icon .fa-solid {
     position: relative;
     color: transparent;
     background-image: linear-gradient(to top, #ff79da, #9356dc);
@@ -1057,7 +1055,7 @@ h3 {
     transition: all 2000ms ease-in-out;
     right: 30.8px;
   }
-  .container-grey-rst-2:hover .fa-solid {
+  .icon .fa-solid:hover {
     opacity: 1;
     transform: scale(1.02);
   }
@@ -1095,14 +1093,14 @@ h3 {
   }
   .container-footer {
     width: 100%;
-    height: 220px;
+    height: 186px;
     background-color: #353535;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    gap: 0px;
     padding-left: 25px;
+    gap: 0px;
   }
   .logo-footer {
     width: 139px;
@@ -1113,6 +1111,8 @@ h3 {
   .display-footer {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    gap: 7px;
   }
   .display-footer p {
     margin: 0px;
@@ -1123,7 +1123,6 @@ h3 {
   .text-footer {
     display: flex;
     flex-direction: column;
-    gap: 15px;
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
