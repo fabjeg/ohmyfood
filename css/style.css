@@ -308,7 +308,6 @@ br {
 }
 
 .container-footer {
-  width: 100%;
   height: 114px;
   display: flex;
   justify-content: flex-start;
@@ -351,6 +350,7 @@ br {
 @media (max-width: 970.98px) {
   /* header*/
   header {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
     position: relative;
     height: 64px;
   }
@@ -372,9 +372,9 @@ br {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #eaeaea;
-    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2509803922);
     margin: 0px;
     gap: 17px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   }
   .position p {
     font-family: "Roboto", sans-serif;
@@ -387,7 +387,7 @@ br {
     width: 100%;
     height: 260px;
     background-color: #f6f6f6;
-    z-index: -10;
+    margin-top: 4px;
   }
   .title h1 {
     line-height: 40.13px;
@@ -419,9 +419,6 @@ br {
   }
   .btn-home a:hover {
     opacity: 0.6;
-  }
-  .container-grey-home {
-    margin-top: 3px;
   }
   .container-white {
     width: 100%;
@@ -482,7 +479,6 @@ br {
     width: 100%;
     height: 1650px;
     background-color: #f6f6f6;
-    padding-right: 10px;
   }
   .container-cards h1 {
     padding-top: 54px;
@@ -552,7 +548,6 @@ br {
     object-fit: cover;
   }
   .container-footer {
-    width: 100%;
     height: 186px;
     background-color: #353535;
     display: flex;
@@ -879,7 +874,6 @@ h3 {
 }
 
 .container-footer {
-  width: 100%;
   height: 114px;
   display: flex;
   justify-content: flex-start;
@@ -1094,7 +1088,6 @@ h3 {
     width: 100%;
   }
   .container-footer {
-    width: 100%;
     height: 186px;
     background-color: #353535;
     display: flex;

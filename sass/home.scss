@@ -22,42 +22,42 @@ $b-c_purpul: #9356dc;
   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2509803922);
 }
 /***************animation loader*******************/
-.container-loader{
-	position: fixed;
-	background-color: #ffffff;
-	height: 100vh;
-	inset: 0;
-	opacity: 0.9;
-	z-index: 1;
-	animation: disappear 1s 1s forwards;
-	display: grid;
-	place-items: center;
+.container-loader {
+  position: fixed;
+  background-color: #ffffff;
+  height: 100vh;
+  inset: 0;
+  opacity: 0.9;
+  z-index: 1;
+  animation: disappear 1s 1s forwards;
+  display: grid;
+  place-items: center;
 }
-@keyframes disappear{
-	0%{
-		transform: scale(1);
-	}
-	100%{
-		transform: scale(0);
-	}
+@keyframes disappear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
 }
-.circle-loader{
-	border: 10px solid $b-c_white;
-	border-top: 10px solid $b-c_purpul;
-	border-bottom: 10px solid $b-c_grenn;
-	border-radius: 50%;
-	inset: 0;
-	width: 100px;
-	height: 100px;
-	animation: spin 1s linear infinite;
+.circle-loader {
+  border: 10px solid $b-c_white;
+  border-top: 10px solid $b-c_purpul;
+  border-bottom: 10px solid $b-c_grenn;
+  border-radius: 50%;
+  inset: 0;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
 }
-@keyframes spin{
-	0%{
-		transform: rotate(0deg);
-	}
-	100%{
-		transform: rotate(360deg);
-	}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 header {
   width: 100%;
@@ -321,7 +321,6 @@ br {
   color: $color_green;
 }
 .container-footer {
-  width: 100%;
   height: 114px;
   display: flex;
   justify-content: flex-start;
@@ -360,6 +359,7 @@ br {
 @media (max-width: 970.98px) {
   /* header*/
   header {
+    box-shadow: 0px 2px 4px 0px #00000026;
     position: relative;
     height: 64px;
   }
@@ -381,9 +381,9 @@ br {
     flex-wrap: wrap;
     justify-content: center;
     background-color: $b-c_grey;
-    @include box-shadow-position;
     margin: 0px;
     gap: 17px;
+    box-shadow: 0px 4px 4px 0px #00000040;
     p {
       font-family: $f-f_roboto;
       margin: 0px;
@@ -396,7 +396,7 @@ br {
     width: 100%;
     height: 260px;
     background-color: $b-c_light-grey;
-    z-index: -10;
+    margin-top: 4px;
   }
   .title {
     h1 {
@@ -430,9 +430,6 @@ br {
     a:hover {
       opacity: 0.6;
     }
-  }
-  .container-grey-home {
-    margin-top: 3px;
   }
   .container-white {
     width: 100%;
@@ -493,7 +490,6 @@ br {
     width: 100%;
     height: 1650px;
     background-color: $b-c_light-grey;
-    padding-right: 10px;
     h1 {
       padding-top: 54px;
     }
@@ -575,7 +571,6 @@ br {
     }
   }
   .container-footer {
-    width: 100%;
     height: 186px;
     background-color: $b-c_footer;
     display: flex;
