@@ -856,14 +856,14 @@ h3 {
   transition: transform 750ms ease;
 }
 .buton-menu:hover h3 {
-  width: 55%;
+  width: 70%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: transform 750ms ease;
 }
 .buton-menu:hover p {
-  width: 55%;
+  width: 70%;
   border: none;
   overflow: hidden;
   text-overflow: ellipsis;
