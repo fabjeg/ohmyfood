@@ -239,7 +239,7 @@ br {
   background-clip: text;
   opacity: 0;
   background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
-  transition: all 2000ms ease-in-out;
+  transition: all 750ms ease-in-out;
 }
 .card-restaurant .heart-home:hover .fa-solid {
   opacity: 1;
@@ -502,7 +502,7 @@ br {
     background-image: linear-gradient(to top, #ff79da, #9356dc);
     -webkit-background-clip: text;
     opacity: 0;
-    transition: all 2000ms;
+    transition: all 750ms;
     right: 29.8px;
   }
   .card-restaurant .heart-home:hover .fa-solid {
@@ -553,7 +553,7 @@ br {
   }
   .container-footer {
     width: 100%;
-    height: 186 px;
+    height: 186px;
     background-color: #353535;
     display: flex;
     flex-direction: column;
@@ -719,7 +719,7 @@ br {
   background-image: linear-gradient(to top, #ff79da, #9356dc);
   -webkit-background-clip: text;
   opacity: 0;
-  transition: all 2000ms ease-in-out;
+  transition: all 750ms ease-in-out;
   right: 30px;
 }
 .container-grey-rst .icon .fa-solid:hover {
@@ -1009,7 +1009,7 @@ h3 {
     background-image: linear-gradient(to top, #ff79da, #9356dc);
     -webkit-background-clip: text;
     opacity: 0;
-    transition: all 2000ms ease-in-out;
+    transition: all 750ms ease-in-out;
     right: 30.8px;
   }
   .container-grey-rst .icon:hover .fa-solid {
