@@ -358,6 +358,9 @@ br {
   display: flex;
 }
 @media (max-width: 970.98px) {
+  body{
+    margin: 0px;
+  }
   /* header*/
   header {
     box-shadow: 0px 2px 4px 0px #00000026;
