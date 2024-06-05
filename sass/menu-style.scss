@@ -91,7 +91,8 @@ $b-c_footer: #353535;
   box-sizing: border-box;
   position: relative;
   z-index: 2;
-  top: 36px;
+  top: 30px;
+  margin: 17px;
   i{
     color: $color_black;
   }
@@ -101,11 +102,10 @@ $b-c_footer: #353535;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  padding: 35px 0px 6px 0px;
   margin: 0px;
   position: relative;
   z-index: 1;
-  top: -42px;
+  top: -30px;
 
   & img {
     width: 260px;
@@ -446,7 +446,7 @@ h3 {
     box-sizing: border-box;
     position: relative;
     z-index: 2;
-    top: 25px;
+    top: 15px;
     i{
       color: $color_black;
     }
@@ -456,11 +456,10 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    padding: 14px 0px 6px 0px;
     margin: 0px;
     position: relative;
     z-index: 1;
-    top: -20px;
+    top: -35px;
 
     & img {
       width: 260px;

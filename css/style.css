@@ -1,5 +1,5 @@
 /***************animation loader*******************/
-/*.container-loader {
+.container-loader {
   position: fixed;
   background-color: #ffffff;
   height: 100vh;
@@ -10,6 +10,7 @@
   display: grid;
   place-items: center;
 }
+
 @keyframes disappear {
   0% {
     transform: scale(1);
@@ -19,15 +20,16 @@
   }
 }
 .circle-loader {
-  border: 10px solid $b-c_white;
-  border-top: 10px solid $b-c_purpul;
-  border-bottom: 10px solid $b-c_grenn;
+  border: 10px solid #ffffff;
+  border-top: 10px solid #9356dc;
+  border-bottom: 10px solid #99e2d0;
   border-radius: 50%;
   inset: 0;
   width: 100px;
   height: 100px;
   animation: spin 1s linear infinite;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -35,7 +37,7 @@
   100% {
     transform: rotate(360deg);
   }
-}*/
+}
 body {
   margin: 0px;
 }
@@ -479,13 +481,15 @@ br {
     margin: 0px;
     gap: 10px;
   }
+  .container-grid h1 {
+    padding-top: 54px;
+  }
   .container-cards {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 1650px;
-    background-color: #f6f6f6 h1;
-    background-color-padding-top: 54px;
+    background-color: #f6f6f6;
   }
   .card-restaurant {
     width: 100%;
@@ -655,7 +659,8 @@ br {
   box-sizing: border-box;
   position: relative;
   z-index: 2;
-  top: 36px;
+  top: 30px;
+  margin: 17px;
 }
 .arrow-icon i {
   color: #000000;
@@ -666,11 +671,10 @@ br {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  padding: 35px 0px 6px 0px;
   margin: 0px;
   position: relative;
   z-index: 1;
-  top: -42px;
+  top: -30px;
 }
 .logo-icon img {
   width: 260px;
@@ -976,7 +980,7 @@ h3 {
     box-sizing: border-box;
     position: relative;
     z-index: 2;
-    top: 25px;
+    top: 15px;
   }
   .arrow-icon i {
     color: #000000;
@@ -986,11 +990,10 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    padding: 14px 0px 6px 0px;
     margin: 0px;
     position: relative;
     z-index: 1;
-    top: -20px;
+    top: -35px;
   }
   .logo-icon img {
     width: 260px;
