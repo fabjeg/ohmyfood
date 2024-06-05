@@ -22,7 +22,7 @@ $b-c_purpul: #9356dc;
   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.2509803922);
 }
 /***************animation loader*******************/
-.container-loader {
+/*.container-loader {
   position: fixed;
   background-color: #ffffff;
   height: 100vh;
@@ -58,11 +58,10 @@ $b-c_purpul: #9356dc;
   100% {
     transform: rotate(360deg);
   }
-}
+}*/
 header {
   width: 100%;
   height: 96px;
-  box-shadow: 0px 2px 4px 0px #00000026;
 }
 .logo {
   display: flex;
@@ -363,14 +362,13 @@ br {
   }
   /* header*/
   header {
-    box-shadow: 0px 2px 4px 0px #00000026;
     position: relative;
     height: 64px;
+    box-shadow: 0px 2px 4px 0px #00000026;
   }
   .logo {
     width: 100%;
-    height: 63px;
-    @include box-shadow;
+    height: 64px;
     img {
       width: 270px;
       height: 44px;
@@ -400,7 +398,8 @@ br {
     width: 100%;
     height: 260px;
     background-color: $b-c_light-grey;
-    margin-top: 4px;
+    position: relative;
+    z-index: -1;
   }
   .title {
     h1 {
